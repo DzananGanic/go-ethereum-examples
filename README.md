@@ -5,18 +5,18 @@ The list of examples might expand in the future, and if you have useful snippets
 
 ## Table of Contents:
 
-- Creating a Client
-- Creating an Account
-- Private Key From String
-- Hex String to Address
-- Getting Nonce (Pending/Current)
-- Suggest Gas Price
-- Creating, Signing and Sending a Raw Transaction
-- Creating a Smart Contract Wrapper
-- Initializing a Smart Contract
-- Calling Smart Contract Methods
-- Waiting for a Transaction to be Mined
-- Compiling a Project
+- [Creating a Client](https://github.com/DzananGanic/go-ethereum-examples#creating-a-client)
+- [Creating an Account](https://github.com/DzananGanic/go-ethereum-examples#creating-an-account)
+- [Private Key From String](https://github.com/DzananGanic/go-ethereum-examples#private-key-from-string)
+- [Hex String to Address](https://github.com/DzananGanic/go-ethereum-examples#hex-string-to-address)
+- [Getting Nonce (Pending/Current)](https://github.com/DzananGanic/go-ethereum-examples#getting-nonce-pendingcurrent)
+- [Suggest Gas Price](https://github.com/DzananGanic/go-ethereum-examples#suggest-gas-price)
+- [Creating, Signing and Sending a Raw Transaction](https://github.com/DzananGanic/go-ethereum-examples#creating-signing-and-sending-a-raw-transaction)
+- [Creating a Smart Contract Wrapper](https://github.com/DzananGanic/go-ethereum-examples#creating-a-smart-contract-wrapper)
+- [Initializing a Smart Contract](https://github.com/DzananGanic/go-ethereum-examples#initializing-a-smart-contract)
+- [Calling Smart Contract Methods](https://github.com/DzananGanic/go-ethereum-examples#calling-smart-contract-methods)
+- [Waiting for a Transaction to be Mined](https://github.com/DzananGanic/go-ethereum-examples#waiting-for-a-transaction-to-be-mined)
+- [Cross-Compiling a Project](https://github.com/DzananGanic/go-ethereum-examples#cross-compiling-a-project)
 
 
 ## Creating a Client
@@ -171,7 +171,7 @@ if err != nil {
 }
 ```
 
-## Compiling a Project
+## Cross-Compiling a Project
 
 While trying to cross-compile my project which used go-ethereum, I used [xgo](https://github.com/karalabe/xgo) cross compiler. I needed to compile it for linux amd64 architecture, for which I have used the following line 
 
