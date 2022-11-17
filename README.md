@@ -49,6 +49,11 @@ privKey := hex.EncodeToString(key.D.Bytes())
 
 ```go
 privKey, err := key.FromString(strPrivKey)
+
+// or 
+
+privKey, err := crypto.HexToECDSA(strPrivKey)
+
 if err != nil {
   panic(err)
 }
